@@ -18,8 +18,8 @@ This project demonstrates how CUDA parallel programming can accelerate classical
 │── README.md  
 │── .gitignore  
 │── CMakeLists.txt # Build config for C++/CUDA  
-│  
-├── src/  
+│
+│── src/  
 │   ├── cpu_baseline.cpp # CPU BFS, DFS, A* implementations  
 │   ├── cuda_bfs.cu      # CUDA BFS kernel + driver  
 │   └── utils.h          # Graph utilities  
