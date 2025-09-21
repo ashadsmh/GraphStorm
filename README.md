@@ -32,17 +32,17 @@ This project demonstrates how CUDA parallel programming can accelerate classical
 - Speedup calculated as CPU time ÷ GPU time.
 
 ### BFS Traversal
-![BFS Traversal](results/graphs_bfs.png)
+![BFS Traversal](results/BFS%20Traversal.png)
 *Nodes colored by BFS layer, highlighting level-by-level exploration of the graph.*
 
 ### DFS Traversal
-![DFS Traversal](results/graphs_dfs.png)
+![DFS Traversal](results/DFS%20Traversal.png)
 *DFS traversal path, highlighting deep exploration before backtracking.*
 
 ### A* Traversal
-![A* Traversal](results/graphs_astar.png)
+![A* Traversal](results/A-Prime%20Traversal.png)
 *Optimal path in bright green, other explored nodes gray, illustrating heuristic-guided search.*
 
 ### CPU vs GPU Speedup Chart
-![Speedup Chart](results/speedup_chart.png)
+![Speedup Chart](results/Speedup%20Chart.png)
 *CPU vs GPU BFS execution times across increasing graph sizes.*
