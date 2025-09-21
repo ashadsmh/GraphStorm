@@ -15,20 +15,21 @@ This project demonstrates how CUDA parallel programming can accelerate classical
 ---
 
 ## 📂 Repository Structure
+## 📂 Repository Structure
 │── README.md  
 │── .gitignore  
-│── CMakeLists.txt # Build config for C++/CUDA  
-│
-│── src/  
-│   ├── cpu_baseline.cpp # CPU BFS, DFS, A* implementations  
-│   ├── cuda_bfs.cu      # CUDA BFS kernel + driver  
-│   └── utils.h          # Graph utilities  
+│── CMakeLists.txt        # Build config for C++/CUDA  
 │  
-├── data/ # Graph inputs  
-│   ├── small_graph.txt  # Small-sized graph  
-│   ├── medium_graph.txt # Mid-sized graph  
-│   └── large_graph.txt  # Benchmark graph  
+├── src/                  # Source code  
+│   ├── cpu_baseline.cpp  # CPU BFS, DFS, A* implementations  
+│   ├── cuda_bfs.cu       # CUDA BFS kernel + driver  
+│   └── utils.h           # Graph utilities  
 │  
-├── results/  
-│   ├── benchmarks.md    # Timing results (CPU vs GPU)  
-│   └── graphs.png       # Visualization of BFS/DFS/A* algorithms  
+├── data/                 # Graph inputs  
+│   ├── small_graph.txt   # Small-sized graph  
+│   ├── medium_graph.txt  # Mid-sized graph  
+│   └── large_graph.txt   # Benchmark graph  
+│  
+├── results/              # Results & visuals  
+│   ├── benchmarks.md     # Timing results (CPU vs GPU)  
+│   └── graphs.png        # Visualization of BFS/DFS/A* algorithms  
