@@ -6,7 +6,7 @@ This project demonstrates how CUDA parallel programming can accelerate classical
 
 # Features
 - CUDA BFS implementation  
-- CPU baselines for BFS, DFS, A***  
+- CPU baselines for BFS, DFS, A*
 - Synthetic graph generator + test cases  
 - Benchmark results (CPU vs GPU speedup)  
 - Visualizations of search expansions  
